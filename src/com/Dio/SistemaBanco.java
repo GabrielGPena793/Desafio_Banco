@@ -68,8 +68,7 @@ public class SistemaBanco {
         do {
             System.out.println("1 - Para de visualizar");
             respostaCliente = scanner.nextInt();
-            if (respostaCliente == 1) break;
-        }while (true);
+        } while (respostaCliente != 1);
 
 
     }

@@ -4,7 +4,7 @@ public abstract class Conta {
     private final int AGENCIA_PADRAO = 1;
     private static int sequencial = 1;
 
-    protected   int agencia , numero;
+    protected int agencia , numero;
     protected double saldo;
     protected Cliente cliente;
 
